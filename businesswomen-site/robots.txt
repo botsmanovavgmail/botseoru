@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /content/
 
-Sitemap: https://botseo.ru/sitemap.xml
+# Sitemap будет добавлен после выбора домена.
