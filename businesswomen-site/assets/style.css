@@ -1,5 +1,5 @@
 
-:root{--bg:#0B0B0C;--card:#151517;--surface:#1D1D20;--text:#F5F5F5;--muted:#A1A1A6;--btn:#78866B;--accent:#C19A6B;--radius:14px}
+:root{--bg:#D9A0AE;--card:#151517;--surface:#1D1D20;--text:#F5F5F5;--muted:#A1A1A6;--btn:#78866B;--accent:#C19A6B;--radius:14px}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,"Segoe UI",Arial,sans-serif}
 a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .container{max-width:760px;margin:0 auto;padding:24px 20px 64px}
