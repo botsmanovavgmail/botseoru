@@ -6,8 +6,8 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0;border-bottom:1px solid #232326}
 .logo{font-weight:800;font-size:20px;color:var(--text)}.logo span{color:var(--accent)}
 nav{display:flex;gap:10px;flex-wrap:wrap}nav a{display:inline-block;color:#fff;text-transform:uppercase;border:1px solid #000;padding:7px 11px;border-radius:6px;font-weight:700}nav a:hover{color:#fff;background:rgba(0,0,0,.12);text-decoration:none}
-.hero{padding:48px 0 32px}.hero h1{font-size:clamp(30px,6vw,44px);line-height:1.15;margin:0 0 16px;text-transform:uppercase}
-.hero p{color:var(--muted);font-size:18px;margin:0 0 28px}
+.hero{padding:48px 0 32px}.hero h1{font-size:clamp(30px,6vw,44px);line-height:1.15;margin:0 0 16px;text-transform:uppercase;text-align:center}
+.hero p{color:var(--muted);font-size:18px;margin:0 0 28px}.hero p:not(.eyebrow){text-align:center}
 .buttons{display:flex;gap:12px;flex-wrap:wrap}
 .btn{display:inline-block;background:var(--btn);color:#0B0B0C;font-weight:700;padding:12px 20px;border-radius:var(--radius)}
 .btn.ghost{background:transparent;color:var(--text);border:1px solid #2A2A2E}
